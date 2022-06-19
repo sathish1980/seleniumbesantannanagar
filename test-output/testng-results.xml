@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="4" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-19T09:39:26 IST" name="Suite" finished-at="2022-06-19T09:39:26 IST" duration-ms="11">
+    <groups>
+    </groups>
+    <test started-at="2022-06-19T09:39:26 IST" name="Test" finished-at="2022-06-19T09:39:26 IST" duration-ms="11">
+      <class name="SeleniumTestngBasics.Testngannotations">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="beforesuite" finished-at="2022-06-19T09:39:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="beforeTest" finished-at="2022-06-19T09:39:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="AfterTest" finished-at="2022-06-19T09:39:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="aftersuite" finished-at="2022-06-19T09:39:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- SeleniumTestngBasics.Testngannotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
