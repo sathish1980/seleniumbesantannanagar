@@ -3,20 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SeleniumTestngBasics.Testngannotations">
+      <class name="Testcase.FacebookLogin">
         <methods>
-          <include name="Testcase2"/>
-          <include name="aftermethod"/>
-          <include name="AfterTest"/>
-          <include name="beforemethod"/>
-          <include name="afterclass"/>
-          <include name="beforesuite"/>
-          <include name="beforeclass"/>
-          <include name="aftersuite"/>
-          <include name="Testcase1"/>
-          <include name="beforeTest"/>
+          <include name="ValidLoginandlogout"/>
+          <include name="Beforelaunch"/>
+          <include name="Maximize"/>
+          <include name="Teardown"/>
         </methods>
-      </class> <!-- SeleniumTestngBasics.Testngannotations -->
+      </class> <!-- Testcase.FacebookLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

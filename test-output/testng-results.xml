@@ -1,29 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="4" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-19T09:39:26 IST" name="Suite" finished-at="2022-06-19T09:39:26 IST" duration-ms="11">
+  <suite started-at="2022-06-25T10:16:12 IST" name="Suite" finished-at="2022-06-25T10:16:45 IST" duration-ms="33247">
     <groups>
     </groups>
-    <test started-at="2022-06-19T09:39:26 IST" name="Test" finished-at="2022-06-19T09:39:26 IST" duration-ms="11">
-      <class name="SeleniumTestngBasics.Testngannotations">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="beforesuite" finished-at="2022-06-19T09:39:26 IST" duration-ms="8" status="PASS">
+    <test started-at="2022-06-25T10:16:12 IST" name="Test" finished-at="2022-06-25T10:16:45 IST" duration-ms="33247">
+      <class name="Testcase.FacebookLogin">
+        <test-method is-config="true" signature="Beforelaunch()[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:10 IST" name="Beforelaunch" finished-at="2022-06-25T10:16:12 IST" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="beforeTest" finished-at="2022-06-19T09:39:26 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Beforelaunch -->
+        <test-method is-config="true" signature="Maximize()[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:12 IST" name="Maximize" finished-at="2022-06-25T10:16:13 IST" duration-ms="1327" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="AfterTest" finished-at="2022-06-19T09:39:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- Maximize -->
+        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:13 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-25T10:16:22 IST" duration-ms="8693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:SeleniumTestngBasics.Testngannotations@793f29ff]" started-at="2022-06-19T09:39:26 IST" name="aftersuite" finished-at="2022-06-19T09:39:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:22 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-25T10:16:30 IST" duration-ms="7382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftersuite -->
-      </class> <!-- SeleniumTestngBasics.Testngannotations -->
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:30 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-25T10:16:38 IST" duration-ms="8083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:38 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-25T10:16:45 IST" duration-ms="7521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Testcase.FacebookLogin@793f29ff]" started-at="2022-06-25T10:16:45 IST" name="Teardown" finished-at="2022-06-25T10:16:46 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Testcase.FacebookLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
