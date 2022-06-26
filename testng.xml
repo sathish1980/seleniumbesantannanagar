@@ -6,4 +6,9 @@
       <class name="Testcase.FacebookLogin"/>
     </classes>
   </test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testcase.FacebookLogin"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

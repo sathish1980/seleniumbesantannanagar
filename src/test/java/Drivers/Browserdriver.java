@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -35,8 +36,10 @@ public class Browserdriver
 		}
 		else if (browsername.equalsIgnoreCase("edge"))
 		{
+			EdgeOptions E= new EdgeOptions();
+			E.addArguments("--disable-notifications");
 			System.setProperty("webdriver.edge.driver",projectpath+"\\Browserdriver\\edgedriver_win64\\msedgedriver.exe");
-			driver= new EdgeDriver();
+			driver= new EdgeDriver(E);
 		}
 		extenterportstart();
 	}
