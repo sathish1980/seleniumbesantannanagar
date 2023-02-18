@@ -11,7 +11,7 @@ import Commons.CommonActions;
 public class Facebook_Logout_Page extends CommonActions
 {
 	WebDriver driver;
-	@FindBy(xpath="(//div[@aria-label='Your profile'])[1]")
+	@FindBy(xpath="//*[local-name()='svg' and @aria-label='Your profile']")
 	WebElement dropdownbutton;
 	@FindBy(xpath="//span[text()='Log Out']//parent::div")
 	WebElement logoutbutton;

@@ -21,48 +21,31 @@ public class FacebookLogin extends Browserdriver
 {
 
 	CommonActions c = new CommonActions();
-	@BeforeSuite
-	public void Beforelaunch()
-	{
-		launchBrowser();
-	}
 	
-	@BeforeTest
-	public void Maximize()
-	{
-		driver.manage().window().maximize();
-		driver.get(Urlvalue);
-	}
 	
-	@AfterSuite
-	public void Teardown()
-	{
-		extentreportclose();
-		driver.quit();
-	}
 	
 	@Test(priority=0,dataProvider="FBlogindata",dataProviderClass=DataProviderclass.class)
 	public void ValidLoginandlogout(String usnam,String pwd) throws InterruptedException
 	{
-		Facbook_login_Page FB= new Facbook_login_Page(driver);
+		Facbook_login_Page FB= new Facbook_login_Page(getdriver());
 		FB.username(usnam);
 		test.log(LogStatus.INFO,"User name entered : "+ usnam);
 		FB.password(pwd);
 		test.log(LogStatus.INFO,"password entered");
 		FB.loginButton();
 		test.log(LogStatus.INFO,"Button clicked");
-		Facebook_Logout_Page FLP = new Facebook_Logout_Page(driver);
-		String loginscussfull=c.takescreenshot(driver);
+		Facebook_Logout_Page FLP = new Facebook_Logout_Page(getdriver());
+		String loginscussfull=c.takescreenshot(getdriver());
 		test.log(LogStatus.INFO,"Login sucessfull",test.addScreenCapture(loginscussfull));
-		FLP.logoutDropdown(driver);
+		FLP.logoutDropdown(getdriver());
 		test.log(LogStatus.INFO,"logout dropdown clicked sucessfull");
 		Thread.sleep(1000);
-		FLP.logoutButton(driver);
+		FLP.logoutButton(getdriver());
 		test.log(LogStatus.INFO,"logout button clicked sucessfull");
 		Thread.sleep(1000);
-		String logoutscussfull=c.takescreenshot(driver);
+		String logoutscussfull=c.takescreenshot(getdriver());
 		test.log(LogStatus.INFO,"Logout sucessfull",test.addScreenCapture(logoutscussfull));
-		String actualTitle=driver.getTitle();
+		String actualTitle=getdriver().getTitle();
 		System.out.println(actualTitle);
 		Assert.assertEquals(actualTitle, "Facebook – log in or sign up");	
 			
@@ -86,7 +69,7 @@ public class FacebookLogin extends Browserdriver
 	    {
 	         //Do something here
 	        System.out.println("Failed ***********");
-	        String logoutscussfull=c.takescreenshot(driver);
+	        String logoutscussfull=c.takescreenshot(getdriver());
 			test.log(LogStatus.FAIL,test.addScreenCapture(logoutscussfull));
 
 

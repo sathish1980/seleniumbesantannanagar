@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-26T09:13:17 IST" name="Suite" finished-at="2022-06-26T09:13:50 IST" duration-ms="33180">
+  <suite name="Suite" duration-ms="54138" started-at="2023-02-18T12:36:11 IST" finished-at="2023-02-18T12:37:05 IST">
     <groups>
     </groups>
-    <test started-at="2022-06-26T09:13:17 IST" name="Test" finished-at="2022-06-26T09:13:50 IST" duration-ms="33180">
+    <test name="Test" duration-ms="51138" started-at="2023-02-18T12:36:11 IST" finished-at="2023-02-18T12:37:02 IST">
       <class name="Testcase.FacebookLogin">
-        <test-method is-config="true" signature="Beforelaunch()[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:15 IST" name="Beforelaunch" finished-at="2022-06-26T09:13:17 IST" duration-ms="2034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforelaunch -->
-        <test-method is-config="true" signature="Maximize()[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:17 IST" name="Maximize" finished-at="2022-06-26T09:13:19 IST" duration-ms="1525" status="PASS">
+        <test-method status="PASS" signature="Maximize(java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="Maximize" is-config="true" duration-ms="6022" started-at="2023-02-18T12:36:11 IST" finished-at="2023-02-18T12:36:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Maximize -->
-        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:19 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-26T09:13:27 IST" duration-ms="8405" status="PASS">
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="ValidLoginandlogout" duration-ms="17624" started-at="2023-02-18T12:36:17 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:35 IST">
           <params>
             <param index="0">
               <value>
@@ -31,7 +34,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLoginandlogout -->
-        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:27 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-26T09:13:35 IST" duration-ms="7505" status="PASS">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:36:35 IST" finished-at="2023-02-18T12:36:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="ValidLoginandlogout" duration-ms="7793" started-at="2023-02-18T12:36:35 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:42 IST">
           <params>
             <param index="0">
               <value>
@@ -47,18 +61,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLoginandlogout -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:27 IST" name="afterMethod" finished-at="2022-06-26T09:13:27 IST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:36:42 IST" finished-at="2023-02-18T12:36:42 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0] output={null}]]]>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:35 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-26T09:13:43 IST" duration-ms="7810" status="PASS">
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="ValidLoginandlogout" duration-ms="8504" started-at="2023-02-18T12:36:42 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:51 IST">
           <params>
             <param index="0">
               <value>
@@ -74,18 +88,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLoginandlogout -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:35 IST" name="afterMethod" finished-at="2022-06-26T09:13:35 IST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:36:51 IST" finished-at="2023-02-18T12:36:51 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0] output={null}]]]>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:43 IST" name="ValidLoginandlogout" data-provider="FBlogindata" finished-at="2022-06-26T09:13:50 IST" duration-ms="7689" status="PASS">
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="ValidLoginandlogout" duration-ms="9925" started-at="2023-02-18T12:36:51 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:37:01 IST">
           <params>
             <param index="0">
               <value>
@@ -101,33 +115,157 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLoginandlogout -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:43 IST" name="afterMethod" finished-at="2022-06-26T09:13:43 IST" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:37:01 IST" finished-at="2023-02-18T12:37:01 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0] output={null}]]]>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@25af5db5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:50 IST" name="afterMethod" finished-at="2022-06-26T09:13:50 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String,java.lang.String)[pri:0, instance:Testcase.FacebookLogin@117159c0] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:Testcase.FacebookLogin@117159c0]" started-at="2022-06-26T09:13:50 IST" name="Teardown" finished-at="2022-06-26T09:13:51 IST" duration-ms="410" status="PASS">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Testcase.FacebookLogin@25af5db5]" name="Teardown" is-config="true" duration-ms="936" started-at="2023-02-18T12:37:01 IST" finished-at="2023-02-18T12:37:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- Testcase.FacebookLogin -->
     </test> <!-- Test -->
+    <test name="Test1" duration-ms="54138" started-at="2023-02-18T12:36:11 IST" finished-at="2023-02-18T12:37:05 IST">
+      <class name="Testcase.FacebookLogin">
+        <test-method status="PASS" signature="launch()[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="launch" is-config="true" duration-ms="357" started-at="2023-02-18T12:36:10 IST" finished-at="2023-02-18T12:36:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Maximize(java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="Maximize" is-config="true" duration-ms="6979" started-at="2023-02-18T12:36:11 IST" finished-at="2023-02-18T12:36:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maximize -->
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="ValidLoginandlogout" duration-ms="17743" started-at="2023-02-18T12:36:18 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-18T12:36:35 IST" finished-at="2023-02-18T12:36:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="ValidLoginandlogout" duration-ms="8321" started-at="2023-02-18T12:36:35 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:36:44 IST" finished-at="2023-02-18T12:36:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="ValidLoginandlogout" duration-ms="10028" started-at="2023-02-18T12:36:44 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:36:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2023-02-18T12:36:54 IST" finished-at="2023-02-18T12:36:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="ValidLoginandlogout" duration-ms="10299" started-at="2023-02-18T12:36:54 IST" data-provider="FBlogindata" finished-at="2023-02-18T12:37:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumar.sathish189@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginandlogout -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="Teardown" is-config="true" duration-ms="754" started-at="2023-02-18T12:37:04 IST" finished-at="2023-02-18T12:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-02-18T12:37:04 IST" finished-at="2023-02-18T12:37:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginandlogout status=SUCCESS method=FacebookLogin.ValidLoginandlogout(java.lang.String, java.lang.String)[pri:0, instance:Testcase.FacebookLogin@757942a1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="teardonw()[pri:0, instance:Testcase.FacebookLogin@757942a1]" name="teardonw" is-config="true" duration-ms="217" started-at="2023-02-18T12:37:05 IST" finished-at="2023-02-18T12:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardonw -->
+      </class> <!-- Testcase.FacebookLogin -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
